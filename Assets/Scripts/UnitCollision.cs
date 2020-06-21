@@ -9,7 +9,7 @@ public class UnitCollision : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("enemy"))
+        if (collision.collider.CompareTag("Enemy"))
         {
             //Do stuff
         }

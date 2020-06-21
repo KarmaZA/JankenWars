@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Economy : MonoBehaviour
 {
@@ -14,6 +15,12 @@ public class Economy : MonoBehaviour
      */
     public int gold = 50;
     public float Passive_wait_timer = 5f;
+    public Text text;
+
+    private void Update()
+    {
+        text.text = "Gold: " + gold;
+    }
 
     void Start()
     {
