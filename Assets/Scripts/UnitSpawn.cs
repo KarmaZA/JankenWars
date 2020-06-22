@@ -18,8 +18,9 @@ public class UnitSpawn : MonoBehaviour
         
     }
 
-    public void Spawn_Player_Unit(float ypos)
+    public void Spawn_Player_Unit()
     {
+        float ypos = FindObjectOfType<PointerMove>().GetYAxis();
         Instantiate(Player_Unit, new Vector2(-20, ypos), Quaternion.identity);
     }
 }

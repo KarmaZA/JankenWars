@@ -14,6 +14,6 @@ public class ButtonClickRock : MonoBehaviour
 
     public void SpawnRock()
     {
-        FindObjectOfType<UnitSpawn>().Spawn_Player_Unit(0);
+        FindObjectOfType<UnitSpawn>().Spawn_Player_Unit();
     }
 }
