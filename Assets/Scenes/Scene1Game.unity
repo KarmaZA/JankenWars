@@ -306,6 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 290827591}
   - component: {fileID: 290827590}
+  - component: {fileID: 290827592}
   m_Layer: 0
   m_Name: UnitSpawner
   m_TagString: Untagged
@@ -341,6 +342,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &290827592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290827589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d9c08fbf4dd4644938bb8f7c4d9849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Spawn_Interval: 3
+  Rock: {fileID: 0}
+  Paper: {fileID: 0}
+  Scissors: {fileID: 0}
 --- !u!1 &303903253
 GameObject:
   m_ObjectHideFlags: 0

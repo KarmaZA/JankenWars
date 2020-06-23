@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\Economy.cs" />
     <Compile Include="Assets\Scripts\EnemyCollision.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawn.cs" />
     <Compile Include="Assets\Scripts\EnemyStats.cs" />
     <Compile Include="Assets\Scripts\EnemyUnit.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
