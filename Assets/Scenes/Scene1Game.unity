@@ -656,6 +656,7 @@ GameObject:
   - component: {fileID: 799688950}
   - component: {fileID: 799688949}
   - component: {fileID: 799688948}
+  - component: {fileID: 799688951}
   m_Layer: 5
   m_Name: Spawn_Scissors
   m_TagString: Untagged
@@ -763,6 +764,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799688946}
   m_CullTransparentMesh: 0
+--- !u!114 &799688951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799688946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef7c9aec03353284397cb6d7fc471143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 799688948}
 --- !u!1 &842277093
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,7 +827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5471698, g: 0.50973415, b: 0.10582057, a: 1}
+  m_Color: {r: 0.9811321, g: 0.9727885, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -24195,6 +24209,7 @@ GameObject:
   - component: {fileID: 2077598147}
   - component: {fileID: 2077598146}
   - component: {fileID: 2077598145}
+  - component: {fileID: 2077598148}
   m_Layer: 5
   m_Name: Spawn_Paper
   m_TagString: Untagged
@@ -24302,3 +24317,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077598143}
   m_CullTransparentMesh: 0
+--- !u!114 &2077598148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077598143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b2cfcfbc8221e49a5172de74ea1560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 2077598145}

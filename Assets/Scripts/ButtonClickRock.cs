@@ -14,6 +14,14 @@ public class ButtonClickRock : MonoBehaviour
 
     public void SpawnRock()
     {
-        FindObjectOfType<UnitSpawn>().Spawn_Player_Unit();
+        if (FindObjectOfType<Economy>().CheckPurchase(5))
+        {
+            FindObjectOfType<Economy>().SpendGold(5);
+            FindObjectOfType<UnitSpawn>().Spawn_Player_Unit();         
+        } else
+        {
+            // not enough gold
+            FindObjectOfType<Economy>().NotEnoughGold();
+        }
     }
 }

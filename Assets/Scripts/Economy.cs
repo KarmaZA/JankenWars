@@ -36,13 +36,25 @@ public class Economy : MonoBehaviour
 
     public Boolean CheckPurchase(int amount)
     {
-        if (amount >= gold)
+        if (amount <= gold)
         {
             return true;
         } else
         {
             return false;
         }
+    }
+
+    public void NotEnoughGold()
+    {
+        text.color = Color.red;
+        StartCoroutine(ChangeBack());
+    }
+
+    IEnumerator ChangeBack()
+    {
+        yield return new WaitForSeconds(2);
+        text.color = Color.yellow;
     }
 
     public void AddGold()

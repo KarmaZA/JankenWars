@@ -63,7 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ButtonClickPaper.cs" />
     <Compile Include="Assets\Scripts\ButtonClickRock.cs" />
+    <Compile Include="Assets\Scripts\ButtonClickScissors.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\Economy.cs" />
     <Compile Include="Assets\Scripts\EnemyCollision.cs" />
