@@ -12,6 +12,7 @@ public class UnitCollision : MonoBehaviour
         if (collision.collider.CompareTag("Enemy"))
         {
             //Do stuff
+            this.gameObject.GetComponent<PlayerStats>().damageCalc(collision);
         }
     }
 }
