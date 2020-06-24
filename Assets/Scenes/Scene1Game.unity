@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d9c08fbf4dd4644938bb8f7c4d9849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Spawn_Interval: 3
+  Spawn_Interval: 1
   Rock: {fileID: 6705628700504862661, guid: c3a7d7298f77dd54386f409cabb21d50, type: 3}
   Paper: {fileID: 5567638401009186221, guid: d181f4b3a326cb746ac5da3e6c91ac00, type: 3}
   Scissors: {fileID: 5549727078601917234, guid: be516a211beee1442a51ce9fe58ee476,
@@ -977,7 +977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gold: 50
-  Passive_wait_timer: 5
+  Passive_wait_timer: 0.5
   text: {fileID: 842277095}
 --- !u!1 &1684367193
 GameObject:

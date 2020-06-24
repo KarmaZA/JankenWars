@@ -12,15 +12,13 @@ public class GameManager : MonoBehaviour
         FindObjectOfType<UnitSpawn>().Spawn_Player_Unit();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Dmg_Player()
     {
         Player_Base_HP--;
+        if (Player_Base_HP == 0)
+        {
+            Debug.Log("Lose");
+        }
     }
     public void Dmg_Player(int dmg)
     {

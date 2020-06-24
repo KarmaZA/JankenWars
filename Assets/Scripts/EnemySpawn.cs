@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour
 {
-    public float Spawn_Interval = 3f;
+    public float Spawn_Interval = 1f;
 
     public GameObject Rock;
     public GameObject Paper;

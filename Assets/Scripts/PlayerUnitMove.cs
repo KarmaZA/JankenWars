@@ -16,6 +16,9 @@ public class PlayerUnitMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (rb.position.x > 21)
+        {
+            Destroy(this.gameObject, 0f);
+        }
     }
 }

@@ -21,7 +21,7 @@ public class PlayerStats : MonoBehaviour
         {
             float enType = collision.collider.GetComponent<EnemyStats>().GetUnitType();
             float enDMG = collision.collider.GetComponent<EnemyStats>().GetDMG();
-            Debug.Log(enType);
+            //Debug.Log(enType);
             //Making it work for Rock player
             if (enType == type)//draw
             {
