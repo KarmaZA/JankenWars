@@ -22,6 +22,10 @@ public class PlayerStats : MonoBehaviour
             float enType = collision.collider.GetComponent<EnemyStats>().GetUnitType();
             float enDMG = collision.collider.GetComponent<EnemyStats>().GetDMG();
             //Debug.Log(enType);
+            if(enType < type)
+            {
+                enType += 3;
+            }
             //Making it work for Rock player
             if (enType == type)//draw
             {
@@ -39,7 +43,7 @@ public class PlayerStats : MonoBehaviour
             }
             if (HP < 1)
             {
-                Debug.Log("player unit dead");
+                //Debug.Log("player unit dead");
                 Destroy(this.gameObject, 0f);
             }
         }

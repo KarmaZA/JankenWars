@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class UnitSpawn : MonoBehaviour
 {
-    public GameObject Player_Unit;
+    public GameObject Player_Unit_Rock;
+    public GameObject Player_Unit_Paper;
+    public GameObject Player_Unit_Scissors;
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +20,20 @@ public class UnitSpawn : MonoBehaviour
         
     }
 
-    public void Spawn_Player_Unit()
+    public void Spawn_Player_Unit_Rock()
     {
         float ypos = FindObjectOfType<PointerMove>().GetYAxis();
-        Instantiate(Player_Unit, new Vector2(-20, ypos), Quaternion.identity);
+        Instantiate(Player_Unit_Rock, new Vector2(-20, ypos), Quaternion.identity);
+    }
+
+    public void Spawn_Player_Unit_Paper()
+    {
+        float ypos = FindObjectOfType<PointerMove>().GetYAxis();
+        Instantiate(Player_Unit_Paper, new Vector2(-20, ypos), Quaternion.identity);
+    }
+    public void Spawn_Player_Unit_Scissors()
+    {
+        float ypos = FindObjectOfType<PointerMove>().GetYAxis();
+        Instantiate(Player_Unit_Scissors, new Vector2(-20, ypos), Quaternion.identity);
     }
 }

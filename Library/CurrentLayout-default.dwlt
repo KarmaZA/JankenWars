@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
-  controlID: 145
+  controlID: 98
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
     width: 1224
     height: 731
   m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
   controlID: 146
 --- !u!114 &7
@@ -211,8 +211,8 @@ MonoBehaviour:
     y: 0
     width: 921
     height: 454
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -241,8 +241,8 @@ MonoBehaviour:
     y: 454
     width: 1224
     height: 277
-  m_MinSize: {x: 333, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+  m_MinSize: {x: 331, y: 271}
+  m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
   controlID: 105
 --- !u!114 &11
@@ -290,8 +290,8 @@ MonoBehaviour:
     y: 0
     width: 916
     height: 277
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -316,8 +316,8 @@ MonoBehaviour:
     y: 0
     width: 312
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -447,7 +447,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a4dfffff0ce4ffff3ee4ffff8ae9ffff46f2ffff5af2ffff0ef3ffff24f3ffff2af3ffff68faffff5efbfffffc390000763e00003e440000e6440000fa44000054450000
+      m_ExpandedIDs: a2e4ffffb6e4ffff60e5ffff68e5ffff6ce5ffff7ae5fffff0f9ffff5efbffff1e390000083b00003c400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -651,11 +651,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Karma\Documents\GitHub\JankenWars
   m_LockTracker:
@@ -664,7 +664,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: e2390000
     m_LastClickedID: 14818
-    m_ExpandedIDs: 00000000b8390000ba390000bc390000be390000c0390000c2390000c4390000c6390000c8390000ca390000cc390000ce39000000ca9a3b
+    m_ExpandedIDs: 00000000c2390000c4390000c6390000c8390000ca390000cc390000ce390000d0390000d2390000d4390000d6390000d839000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -692,7 +692,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b8390000ba390000bc390000be390000c0390000c2390000c4390000c6390000c8390000ca390000cc390000ce390000
+    m_ExpandedIDs: 00000000c2390000c4390000c6390000c8390000ca390000cc390000ce390000d0390000d2390000d4390000d6390000d8390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -736,7 +736,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -744,7 +744,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 71.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 121
@@ -811,7 +811,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 350
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52

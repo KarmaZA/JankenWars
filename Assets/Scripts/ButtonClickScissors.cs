@@ -17,7 +17,7 @@ public class ButtonClickScissors : MonoBehaviour
         if (FindObjectOfType<Economy>().CheckPurchase(5))
         {
             FindObjectOfType<Economy>().SpendGold(5);
-            FindObjectOfType<UnitSpawn>().Spawn_Player_Unit();
+            FindObjectOfType<UnitSpawn>().Spawn_Player_Unit_Scissors();
         }
         else
         {

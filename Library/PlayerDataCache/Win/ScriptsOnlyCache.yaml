@@ -10,9 +10,12 @@ ScriptsOnlyBuild:
     - EnemySpawn
     - EnemyStats
     - GameManager
+    - InstructButton
+    - LoadInstructions
     - PlayerStats
     - PlayerUnitMove
     - PointerMove
+    - QuitGame
     - StartGame
     - UnitCollision
     - UnitSpawn
@@ -20,6 +23,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -73,17 +77,72 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11542}
     - Class: 114
-      Script: {instanceID: 12204}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 12904}
+      Script: {instanceID: 12208}
     - Class: 114
-      Script: {instanceID: 13250}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 13564}
+      Script: {instanceID: 13256}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13570}
     - Class: 114
-      Script: {instanceID: 14280}
+      Script: {instanceID: 13670}
+    - Class: 114
+      Script: {instanceID: 14286}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene01Instructions.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11192}
+    - Class: 114
+      Script: {instanceID: 11486}
+    - Class: 114
+      Script: {instanceID: 11542}
+    - Class: 114
+      Script: {instanceID: 12208}
+    - Class: 114
+      Script: {instanceID: 12908}
+    - Class: 114
+      Script: {instanceID: 13086}
+    - Class: 114
+      Script: {instanceID: 13256}
+    - Class: 114
+      Script: {instanceID: 13570}
+    - Class: 114
+      Script: {instanceID: 13670}
+    - Class: 114
+      Script: {instanceID: 14286}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -128,25 +187,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11542}
     - Class: 114
-      Script: {instanceID: 12204}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 12256}
+      Script: {instanceID: 12208}
     - Class: 114
-      Script: {instanceID: 12904}
+      Script: {instanceID: 12260}
     - Class: 114
-      Script: {instanceID: 13250}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 13268}
+      Script: {instanceID: 13086}
     - Class: 114
-      Script: {instanceID: 13564}
+      Script: {instanceID: 13256}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13274}
     - Class: 114
-      Script: {instanceID: 13944}
+      Script: {instanceID: 13570}
     - Class: 114
-      Script: {instanceID: 14280}
+      Script: {instanceID: 13670}
     - Class: 114
-      Script: {instanceID: 15306}
+      Script: {instanceID: 13950}
+    - Class: 114
+      Script: {instanceID: 14286}
+    - Class: 114
+      Script: {instanceID: 14378}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -201,33 +264,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 12204}
+      Script: {instanceID: 12208}
     - Class: 114
-      Script: {instanceID: 12758}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 12904}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 13136}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13438}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13670}
     - Class: 114
-      Script: {instanceID: 13684}
+      Script: {instanceID: 13690}
     - Class: 114
-      Script: {instanceID: 13744}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 13792}
     - Class: 114
-      Script: {instanceID: 14280}
+      Script: {instanceID: 14286}
     - Class: 114
-      Script: {instanceID: 14312}
-    - Class: 114
-      Script: {instanceID: 14352}
+      Script: {instanceID: 14318}
     - Class: 114
       Script: {instanceID: 14358}
     - Class: 114
-      Script: {instanceID: 14396}
+      Script: {instanceID: 14364}
+    - Class: 114
+      Script: {instanceID: 14404}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -405,7 +468,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 5d236772a51b256594658bdc3cf66f33
+      Hash: fd26f37eed5d46eb98d93b571eca80f5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -465,10 +528,22 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: ec75425d958f17040db4736e29ed0d58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InstructButton
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 8a10d1fc6029b3f51d0abc87582fa9fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadInstructions
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -579,6 +654,12 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 8a10d1fc6029b3f51d0abc87582fa9fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartGame
+  - hash:
+      serializedVersion: 2
       Hash: 2895aa8490b2c143b4706a483fd5d324
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -669,7 +750,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: aa4f9e8a7764e09515c0c6f5cc25054a
+      Hash: 137129774ca2d4229fa21e6e46d095c6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UnitSpawn
@@ -813,6 +894,12 @@ ScriptsOnlyBuild:
     className: ButtonClickPaper
   - hash:
       serializedVersion: 2
+      Hash: 8a10d1fc6029b3f51d0abc87582fa9fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuitGame
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -823,15 +910,10 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PointerMove
-  - hash:
-      serializedVersion: 2
-      Hash: 8a10d1fc6029b3f51d0abc87582fa9fd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StartGame
   platform: 5
   scenePathNames:
   - Assets/Scenes/Scene0Menu.unity
   - Assets/Scenes/Scene1Game.unity
   - Assets/Scenes/Scene00Instructions.unity
+  - Assets/Scenes/Scene01Instructions.unity
   playerPath: C:/Users/Karma/Documents/GitHub/JankenWars/Builds/JankenWars.exe
