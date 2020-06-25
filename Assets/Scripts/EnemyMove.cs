@@ -20,5 +20,7 @@ public class EnemyMove : MonoBehaviour
         {
             FindObjectOfType<GameManager>().Dmg_Player();
         }
+        rb.velocity = new Vector2(-1f, 0f);
+        
     }
 }

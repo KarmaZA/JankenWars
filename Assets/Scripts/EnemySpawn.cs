@@ -27,13 +27,13 @@ public class EnemySpawn : MonoBehaviour
         float type = Random.Range(0, 3);
         if(type < 1)
         {
-            Instantiate(Rock, new Vector2(20, ypos), Quaternion.identity);
+            Instantiate(Rock, new Vector2(28, ypos), Quaternion.identity);
         } else if (type < 2)
         {
-            Instantiate(Paper, new Vector2(20, ypos), Quaternion.identity);
+            Instantiate(Paper, new Vector2(28, ypos), Quaternion.identity);
         } else
         {
-            Instantiate(Scissors, new Vector2(20, ypos), Quaternion.identity);
+            Instantiate(Scissors, new Vector2(28, ypos), Quaternion.identity);
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,9 +18,9 @@ public class GameManager : MonoBehaviour
     public void Dmg_Player()
     {
         Player_Base_HP--;
-        if (Player_Base_HP == 0)
+        if (Player_Base_HP < 1)
         {
-            Debug.Log("Lose");
+            SceneManager.LoadScene(0);
         }
     }
     public void Dmg_Player(int dmg)

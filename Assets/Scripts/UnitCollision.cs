@@ -12,7 +12,7 @@ public class UnitCollision : MonoBehaviour
         if (collision.collider.CompareTag("Enemy"))
         {
             //Do stuff
-            this.GetComponent<PlayerUnitMove>().rb.AddForce(new Vector2(50f, 0));
+            //this.gameObject.GetComponent<PlayerUnitMove>().rb.AddForce(new Vector2(50f, 0));
             this.gameObject.GetComponent<PlayerStats>().damageCalc(collision);
             //this.GetComponent<PlayerUnitMove>().rb.AddForce(new Vector2(15f, 0));
         }

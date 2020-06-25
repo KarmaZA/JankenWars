@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d9c08fbf4dd4644938bb8f7c4d9849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Spawn_Interval: 2
+  Spawn_Interval: 1
   Rock: {fileID: 6705628700504862661, guid: c3a7d7298f77dd54386f409cabb21d50, type: 3}
   Paper: {fileID: 5567638401009186221, guid: d181f4b3a326cb746ac5da3e6c91ac00, type: 3}
   Scissors: {fileID: 5549727078601917234, guid: be516a211beee1442a51ce9fe58ee476,
@@ -24197,7 +24197,7 @@ Tilemap:
   - m_RefCount: 1702
     m_Data: {fileID: 11400000, guid: 606805d0543656f4fa8ab9e832d958e8, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 8edb15468ec976d4c805d6e4aa44dfe4, type: 2}
+    m_Data: {fileID: 11400000, guid: a97c4b7af50cc1742be8bc635d89aad1, type: 2}
   - m_RefCount: 545
     m_Data: {fileID: 11400000, guid: 908faa6162a0d4c45938022203aa0402, type: 2}
   - m_RefCount: 280
@@ -24222,7 +24222,7 @@ Tilemap:
   - m_RefCount: 1702
     m_Data: {fileID: 21300000, guid: 0c4902476b9a41349814ccdf9849e367, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 385d9e5a2af76b64d9879c9a58c8eaf3, type: 3}
+    m_Data: {fileID: 21300000, guid: 2d7e4616f25e1504cbd2f8f5269902af, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 2528
     m_Data:
